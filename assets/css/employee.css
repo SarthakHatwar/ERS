@@ -1,0 +1,11 @@
+.body{
+ margin-top: 10vw;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+.head{
+    font: 1.5em sans-serif;
+    text-decoration: underline black;
+    font-weight: 300;
+}

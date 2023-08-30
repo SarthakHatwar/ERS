@@ -1,0 +1,59 @@
+.heading{
+    display: flex;
+    justify-content: center;
+   
+    color:black;
+    font-size:2.5rem;
+    font-weight:bold;
+   
+}
+.text-center{
+    font-size:1.2rem;
+    margin-top:5px;
+    font-weight:bold;
+}
+.assingHeadine{
+    display: flex;
+    justify-content: center;
+}
+.reviewContainer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 30%;
+    align-items: center;
+    height: fit-content;
+    border-radius:10px;
+}
+.reviewer{
+    width: 90%;
+}
+.submitButtons{
+    margin-left: 36%;
+    width: 30%;
+    margin-top:10px;
+    padding:10px;
+}
+
+.submitButtons button{
+    background-color:#2c2c2c;
+    width: 10vw;
+    height: 25px;
+
+    color: white;
+    border-radius: 20px;
+
+}
+.submitButtons button:hover{
+    background-color:#2c2c2c ;
+}
+.submitButtons2{
+    width: 10vw;
+}
+
+
+#addemp{
+    background-color: lightyellow;
+}
