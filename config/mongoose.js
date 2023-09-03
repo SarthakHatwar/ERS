@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const DB = 'mongodb://0.0.0.0:27017/ERSS'
+const DB = 'mongodb+srv://User21:test123@cluster0.djvmwix.mongodb.net/?retryWrites=true&w=majority'
 
 
 mongoose.connect(DB).then(()=>{
