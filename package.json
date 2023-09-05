@@ -4,7 +4,8 @@
   "description": "ERS",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node index.js",
+    "build": "npm run build"
   },
   "author": "Sarthak Hatwar",
   "license": "ISC",
