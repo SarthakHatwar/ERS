@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const DB = 'mongodb+srv://User21:test123@cluster0.djvmwix.mongodb.net/?retryWrites=true&w=majority'
 
 
-mongoose.connect(DB).then(()=>{
+mongoose.connect( process.env.MONGO_URI).then(()=>{
      console.log('connection successful');
  }).catch((err) => console.log("no connection " + err));
 
