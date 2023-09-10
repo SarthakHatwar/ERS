@@ -33,7 +33,7 @@ app.use(session({
         maxAge: (1000 * 60 * 100)
     },
     store: MongoStore.create({
-        mongoUrl: 'mongodb+srv://User21:test123@cluster0.djvmwix.mongodb.net/?retryWrites=true&w=majority',
+        mongoUrl:  process.env.MONGO_URI,
         autoRemove: 'disabled'
     },
         (err) => {
