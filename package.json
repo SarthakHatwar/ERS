@@ -4,7 +4,7 @@
   "description": "ERS",
   "main": "app.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js"
   },
   "author": "Sarthak Hatwar",
   "license": "ISC",
