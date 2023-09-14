@@ -5,7 +5,6 @@
   "main": "app.js",
   "scripts": {
     "start": "node index.js",
-    "build": "npm run build"
   },
   "author": "Sarthak Hatwar",
   "license": "ISC",
